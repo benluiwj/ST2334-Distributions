@@ -289,7 +289,7 @@ if __name__ == "__main__" :
         
         
         distribution = distributions[selected_distribution]
-        if not input2:
+        if input2 == None:
                 distribution.set_inputs(input1)
         
         else :
